@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            margin: 0;
+            width: 300px;
+            padding: 30px;
+            font-size: 16px;
+        }
+
+        body>div {
+            width: 100%;
+        }
+
+        .btnbox,
+        .add {
+            line-height: 30px;
+            margin: 4px auto;
+            background: aqua;
+            overflow: hidden;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .btnbox .button {
+            width: 90%;
+            float: left;
+        }
+
+        .btnbox .delbtn {
+            width: 10%;
+            float: left;
+            background: #f77;
+        }
+
+        .addform {
+            height: 0px;
+            margin: 0 auto;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .addform.show {
+            height: 64px;
+        }
+
+        .addform input {
+            line-height: 20px;
+            padding: 2px;
+            width: 96%;
+            margin: 2px 0;
+        }
+
+        .message {
+            display: none;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="addform">
+        <input type="text" name="name" placeholder="button's name" />
+        <input type="text" name="script" placeholder="button's binded js script" />
+    </div>
+    <div class="add">add a button</div>
+    <div class="message"></div>
+    <script src="js.js">
+
+    </script>
+</body>
+
+</html>

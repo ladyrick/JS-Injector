@@ -1,0 +1,14 @@
+{
+    "name": "JS Injector",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab"
+    ],
+    "description": "Javascript injector by liuhong12th.",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "JS Injector",
+        "default_popup": "popup.html"
+    }
+}
